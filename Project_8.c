@@ -2,14 +2,14 @@
 #include <time.h>
 #define _CRT_SECURE_NO_WARNINGS
 
-// 
+// 재귀적 방법
 int fib(int n) {
     if (n<=2) {
         return 1;
     } 
     return fib(n-1) + fib(n-2);
 }
-
+// 순환적 방법
 int fibo(int n) {
     if(n<=2) {
         return 1;
